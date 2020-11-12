@@ -29,10 +29,7 @@ app
 		/ThirdParty     Прочие библиотеки для использования в приложении
 		/Views          Виды хранят представления для отображения.
 
-Because the ``app`` directory is already namespaced, you should feel free to modify the structure
-of this directory to suit your application's needs. For example, you might decide to start using the Repository
-pattern and Entity Models to work with your data. In this case, you could rename the ``Models`` directory to
-``Repositories``, and add a new ``Entities`` directory.
+Так как директория ``app`` уже включена в пространство имен, вы можете изменять её структуру так как считаете нужным. Например, вы решаете использовать шаблон Репозиторий и Сущностные модели для работы с данными. В этом случае, вы можете переименовать директорию ``Models`` в ``Repositories`` и добавить новую директорию ``Entities``.
 
 .. note:: If you rename the ``Controllers`` directory, though, you will not be able to use the automatic method of
 		routing to controllers, and will need to define all of your routes in the routes file.

@@ -1,18 +1,13 @@
-#######
-Credits
-#######
+#################
+Благодарности
+#################
 
-CodeIgniter was originally developed by `EllisLab  <https://ellislab.com/>`_.
-The framework was written for performance in the real world,
-with many of the original class libraries, helpers, and
-sub-systems borrowed from the code-base of `ExpressionEngine
+Изначально, CodeIgniter был разработан компанией `EllisLab  <https://ellislab.com/>`_.
+Фреймворк был написан чтобы соответствовать задачам в реальном мире. В нем были реализованы такие классы, как Библиотеки, Помощники и подсистемы, взятые из кодовой базы движка `ExpressionEngine
 <https://expressionengine.com>`_.
-It was, for years, developed and maintained by EllisLab, the ExpressionEngine
-Development Team and a group of community members called the Reactor Team.
+Годами он разрабатывался и поддерживался компанией EllisLab, командой разработки движка ExpressionEngine и членами сообщества Reactor Team.
 
-In 2014, CodeIgniter was acquired by the `British Columbia Institute of Technology
-<https://www.bcit.ca/>`_ and was then officially announced as a community-maintained
-project.
+В 2014 году, CodeIgniter был передан `Технологическому институту Британской Колумбии
+<https://www.bcit.ca/>`_, а также официально представлен, как проект, поддерживаемый сообществом.
 
-In 2019, the CodeIgniter Foundation was formed to provide a perpetual managing group
-separate from any other entity to help ensure the framework's future.
+В 2019 году, был основан Фонд CodeIgniter, для организации постоянной управляющей группы, чтобы обеспечить развитие фреймворка.

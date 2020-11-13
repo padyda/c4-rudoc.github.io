@@ -1,33 +1,32 @@
-###################
-Server Requirements
-###################
+##################################
+Системные требования к серверу
+##################################
 
-`PHP <https://www.php.net/>`_ version 7.2 or newer is required, with the
-`*intl* extension <https://www.php.net/manual/en/intl.requirements.php>`_ and `*mbstring* extension <https://www.php.net/manual/en/mbstring.requirements.php>`_
-installed.
+`PHP <https://www.php.net/>`_ версии 7.2 или выше, с установленными раширениями
+`*intl* <https://www.php.net/manual/en/intl.requirements.php>`_ и `*mbstring* <https://www.php.net/manual/en/mbstring.requirements.php>`_.
 
-The following PHP extensions should be enabled on your server:
+Следующие расширения PHP должны бать включены на вашем сервере:
 ``php-json``, ``php-mysqlnd``, ``php-xml``
 
-In order to use the :doc:`CURLRequest </libraries/curlrequest>`, you will need
-`libcurl <https://www.php.net/manual/en/curl.requirements.php>`_ installed.
+Для использования :doc:`CURLRequest </libraries/curlrequest>`, вам будет необходима установленная библиотека
+`libcurl <https://www.php.net/manual/en/curl.requirements.php>`_.
 
-A database is required for most web application programming.
-Currently supported databases are:
+Для прикладного программирования необходима база данных.
+Поддерживаемые базы данных:
 
-  - MySQL (5.1+) via the *MySQLi* driver
-  - PostgreSQL via the *Postgre* driver
-  - SQLite3 via the *SQLite3* driver
-  - MSSQL via the *Sqlsrv* driver (version 2005 and above only)
+  - MySQL (5.1+) с помощью драйвера *MySQLi*
+  - PostgreSQL с помощью драйвера *Postgre*
+  - SQLite3 с помощью драйвера *SQLite3*
+  - MSSQL с помощью драйвера *Sqlsrv* (версии 2005 или выше)
 
-Not all of the drivers have been converted/rewritten for CodeIgniter4.
-The list below shows the outstanding ones.
+Не все драйверы были переписаны или конвертированы для CodeIgniter4.
+Вот список неподдерживаемых;
 
-  - MySQL (5.1+) via the *pdo* driver
-  - Oracle via the *oci8* and *pdo* drivers
-  - PostgreSQL via the *pdo* driver
-  - MSSQL via the *pdo* driver
-  - SQLite via the *sqlite* (version 2) and *pdo* drivers
-  - CUBRID via the *cubrid* and *pdo* drivers
-  - Interbase/Firebird via the *ibase* and *pdo* drivers
-  - ODBC via the *odbc* and *pdo* drivers (you should know that ODBC is actually an abstraction layer)
+  - MySQL (5.1+) с помощью драйвера *pdo*
+  - Oracle с помощью драйвера *oci8* и *pdo*
+  - PostgreSQL с помощью драйвера *pdo*
+  - MSSQL с помощью драйвера *pdo*
+  - SQLite с помощью драйвера *sqlite* (версии 2) и *pdo*
+  - CUBRID с помощью драйвера *cubrid* и *pdo*
+  - Interbase/Firebird с помощью драйвера *ibase* и *pdo*
+  - ODBC с помощью драйвера *odbc* и *pdo* (вы должны знать, что ODBC - это набор абстрактных классов доступа к данным)

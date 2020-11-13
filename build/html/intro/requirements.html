@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Server Requirements &mdash; CodeIgniter 4.0.4 documentation</title>
+  <title>Системные требования к серверу &mdash; CodeIgniter 4.0.4 documentation</title>
   
 
   
@@ -89,7 +89,7 @@
               <ul class="current">
 <li class="toctree-l1 current"><a class="reference internal" href="index.html">Добро пожаловать в CodeIgniter4</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="index.html">Добро пожаловать в CodeIgniter4</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#">Server Requirements</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Системные требования к серверу</a></li>
 <li class="toctree-l2"><a class="reference internal" href="credits.html">Благодарности</a></li>
 <li class="toctree-l2"><a class="reference internal" href="psr.html">PSR Compliance</a></li>
 </ul>
@@ -324,7 +324,7 @@
         
           <li><a href="index.html">Добро пожаловать в CodeIgniter4</a> &raquo;</li>
         
-      <li>Server Requirements</li>
+      <li>Системные требования к серверу</li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -341,37 +341,36 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="server-requirements">
-<h1>Server Requirements<a class="headerlink" href="#server-requirements" title="Permalink to this headline">¶</a></h1>
-<p><a class="reference external" href="https://www.php.net/">PHP</a> version 7.2 or newer is required, with the
-<a class="reference external" href="https://www.php.net/manual/en/intl.requirements.php">*intl* extension</a> and <a class="reference external" href="https://www.php.net/manual/en/mbstring.requirements.php">*mbstring* extension</a>
-installed.</p>
-<p>The following PHP extensions should be enabled on your server:
+  <div class="section" id="id1">
+<h1>Системные требования к серверу<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
+<p><a class="reference external" href="https://www.php.net/">PHP</a> версии 7.2 или выше, с установленными раширениями
+<a class="reference external" href="https://www.php.net/manual/en/intl.requirements.php">*intl*</a> и <a class="reference external" href="https://www.php.net/manual/en/mbstring.requirements.php">*mbstring*</a>.</p>
+<p>Следующие расширения PHP должны бать включены на вашем сервере:
 <code class="docutils literal notranslate"><span class="pre">php-json</span></code>, <code class="docutils literal notranslate"><span class="pre">php-mysqlnd</span></code>, <code class="docutils literal notranslate"><span class="pre">php-xml</span></code></p>
-<p>In order to use the <a class="reference internal" href="../libraries/curlrequest.html"><span class="doc">CURLRequest</span></a>, you will need
-<a class="reference external" href="https://www.php.net/manual/en/curl.requirements.php">libcurl</a> installed.</p>
-<p>A database is required for most web application programming.
-Currently supported databases are:</p>
+<p>Для использования <a class="reference internal" href="../libraries/curlrequest.html"><span class="doc">CURLRequest</span></a>, вам будет необходима установленная библиотека
+<a class="reference external" href="https://www.php.net/manual/en/curl.requirements.php">libcurl</a>.</p>
+<p>Для прикладного программирования необходима база данных.
+Поддерживаемые базы данных:</p>
 <blockquote>
 <div><ul class="simple">
-<li><p>MySQL (5.1+) via the <em>MySQLi</em> driver</p></li>
-<li><p>PostgreSQL via the <em>Postgre</em> driver</p></li>
-<li><p>SQLite3 via the <em>SQLite3</em> driver</p></li>
-<li><p>MSSQL via the <em>Sqlsrv</em> driver (version 2005 and above only)</p></li>
+<li><p>MySQL (5.1+) с помощью драйвера <em>MySQLi</em></p></li>
+<li><p>PostgreSQL с помощью драйвера <em>Postgre</em></p></li>
+<li><p>SQLite3 с помощью драйвера <em>SQLite3</em></p></li>
+<li><p>MSSQL с помощью драйвера <em>Sqlsrv</em> (версии 2005 или выше)</p></li>
 </ul>
 </div></blockquote>
-<p>Not all of the drivers have been converted/rewritten for CodeIgniter4.
-The list below shows the outstanding ones.</p>
+<p>Не все драйверы были переписаны или конвертированы для CodeIgniter4.
+Вот список неподдерживаемых;</p>
 <blockquote>
 <div><ul class="simple">
-<li><p>MySQL (5.1+) via the <em>pdo</em> driver</p></li>
-<li><p>Oracle via the <em>oci8</em> and <em>pdo</em> drivers</p></li>
-<li><p>PostgreSQL via the <em>pdo</em> driver</p></li>
-<li><p>MSSQL via the <em>pdo</em> driver</p></li>
-<li><p>SQLite via the <em>sqlite</em> (version 2) and <em>pdo</em> drivers</p></li>
-<li><p>CUBRID via the <em>cubrid</em> and <em>pdo</em> drivers</p></li>
-<li><p>Interbase/Firebird via the <em>ibase</em> and <em>pdo</em> drivers</p></li>
-<li><p>ODBC via the <em>odbc</em> and <em>pdo</em> drivers (you should know that ODBC is actually an abstraction layer)</p></li>
+<li><p>MySQL (5.1+) с помощью драйвера <em>pdo</em></p></li>
+<li><p>Oracle с помощью драйвера <em>oci8</em> и <em>pdo</em></p></li>
+<li><p>PostgreSQL с помощью драйвера <em>pdo</em></p></li>
+<li><p>MSSQL с помощью драйвера <em>pdo</em></p></li>
+<li><p>SQLite с помощью драйвера <em>sqlite</em> (версии 2) и <em>pdo</em></p></li>
+<li><p>CUBRID с помощью драйвера <em>cubrid</em> и <em>pdo</em></p></li>
+<li><p>Interbase/Firebird с помощью драйвера <em>ibase</em> и <em>pdo</em></p></li>
+<li><p>ODBC с помощью драйвера <em>odbc</em> и <em>pdo</em> (вы должны знать, что ODBC - это набор абстрактных классов доступа к данным)</p></li>
 </ul>
 </div></blockquote>
 </div>

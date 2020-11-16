@@ -1,44 +1,42 @@
-**************
-PSR Compliance
-**************
+***********************
+Совместимость с PSR
+***********************
 
-The `PHP-FIG <https://www.php-fig.org/>`_ was created in 2009 to help make code more interoperable between frameworks
-by ratifying Interfaces, style guides, and more that members were free to implement or not. While CodeIgniter is
-not a member of the FIG, we are compatible with a number of their proposals. This guide is meant to list the
-status of our compliance with the various accepted, and some draft, proposals.
+Группа `PHP-FIG <https://www.php-fig.org/>`_ была основана в 2009 году чтобы сделать код фреймворков более совместимым, взаимоиспользуемым
+с помощью утвержденных Интерфейсов,  Руководств по стилю написания кода и прочим, так, чтобы участники были вольны выбирать, следовать этому или нет.
+Пока CodeIgniter не член группы FIG, мы совместимы не со всеми их предложениями. Это руководство определяет статус поддержки некоторых принятых или черновых предложений.
 
 **PSR-1: Basic Coding Standard**
 
-This recommendation covers basic class, method, and file-naming standards. Our
-`style guide <https://github.com/codeigniter4/CodeIgniter4/blob/develop/contributing/styleguide.rst>`_
-meets PSR-1 and adds its own requirements on top of it.
+Эта рекомендация описывает именование классов, методов и файлов. Наше
+`руководство по стилю кода <https://github.com/codeigniter4/CodeIgniter4/blob/develop/contributing/styleguide.rst>`_
+отвечает требованиям PSR-1 и добавлет несколько своих требований сверху.
 
 **PSR-2: Coding Style Guide**
 
-This PSR was fairly controversial when it first came out. CodeIgniter meets many of the recommendations within,
-but does not, and will not, meet all of them.
+Этот PSR был несколько противоречивым на момент выхода в свет. CodeIgniter отвечает многим указанным в нем рекомендациям, однако
+он не отвечает, и не будет отвечать, им всем.
 
 **PSR-3: Logger Interface**
 
-CodeIgniter's :doc:`Logger </general/logging>` implements all of the interfaces provided by this PSR.
+CodeIgniter's :doc:`Logger </general/logging>` применяет все Интерфейсы, указанные в этом PSR.
 
 **PSR-4: Autoloading Standard**
 
-This PSR provides a method for organizing file and namespaces to allow for a standard method of autoloading
-classes. Our :doc:`Autoloader </concepts/autoloader>` meets the PSR-4 recommendations.
+Этот PSR обеспечивает методику организации файлов и пространства имен для поддержки стандартной процедуры автозагрузки классов. Наш :doc:`Autoloader </concepts/autoloader>` удовлетворяет рекомендациям PSR-4.
 
 **PSR-6: Caching Interface**
 
-CodeIgniter will not be trying to meet this PSR, as we believe it oversteps its needs. The newly proposed
+CodeIgniter не будет пытаться удовлетворить рекомендации этого PSR, так как мы уверены, что он выходит за рамки своих потребностей. Недавно предложенный
 `SimpleCache Interfaces <https://github.com/dragoonis/fig-standards/blob/psr-simplecache/proposed/simplecache.md>`_
-do look like something we would consider.
+выглядит как нечто, что можно будет рассмотреть.
 
 **PSR-7: HTTP Message Interface**
 
-This PSR standardizes a way of representing the HTTP interactions. While many of the concepts became part of our
-HTTP layer, CodeIgniter does not strive for compatibility with this recommendation.
+Этот PSR стандартизирует то, как представляется взаимодействие с протоколом HTTP. Многие понятия стали частью нашего слоя
+HTTP, но CodeIgniter не стремится к совместимости с этими рекомендациями.
 
 ---
 
-If you find any places that we claim to meet a PSR but have failed to execute it correctly, please let us know
-and we will get it fixed, or submit a pull request with the required changes.
+Если вы встретите ошибочное или некорректное применение рекомендаций PSR, пожалуйста, сообщите нам и
+мы их исправим, или отправьте пул реквест с необходимыми изменениями.

@@ -1,16 +1,11 @@
 ############
-Installation
+Установка
 ############
 
-CodeIgniter4 can be installed in a number of different ways: manually,
-using `Composer <https://getcomposer.org>`_, or using
-`Git <https://git-scm.com/>`_.
-Which is right for you?
+CodeIgniter4 можно установить разными способами: вручную, используя `Composer <https://getcomposer.org>`_, или `Git <https://git-scm.com/>`_. Как вам удобно?
 
-- If you would like the simple "download & go" install that CodeIgniter3
-  is known for, choose the manual installation.
-- If you plan to add third party packages to your project, or want to keep
-  CodeIgniter up to date easily, we recommend the Composer installation.
+- Если вы хотите просто "скачать и запустить", как это было с CodeIgniter3, выберите ручную установку.
+- Если вы планируете использовать сторонние пакеты в проекте или легко обновлять  CodeIgniter, мы рекомендуем использовать установку через Composer.
 
 .. toctree::
     :titlesonly:
@@ -22,11 +17,6 @@ Which is right for you?
     troubleshooting
     repositories
 
-However you choose to install and run CodeIgniter4, the
-`user guide <https://codeigniter4.github.io/userguide/>`_ is accessible online.
+Что бы вы не выбрали, `документация <https://codeigniter4.github.io/userguide/>`_ доступна онлайн.
 
-.. note:: Before using CodeIgniter 4, make sure that your server meets the
-          :doc:`requirements </intro/requirements>`, in particular the PHP
-          version and the PHP extensions that are needed.
-          You may find that you have to uncomment the ``php.ini`` "extension"
-          lines to enable "curl" and "intl", for instance.
+.. note:: Перед использованием CodeIgniter 4, убедитесь, что ваш сервер соответствует :doc:`требованиям </intro/requirements>`, особо обратите внимание на версию PHP и его расширения. Возможно, придется раскомментировать некоторые строки в конфигурационном файле ``php.ini`` в разделе "extension", например, "curl" и "intl".

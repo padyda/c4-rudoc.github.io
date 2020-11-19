@@ -1,6 +1,6 @@
-#######################
-CodeIgniter4 User Guide
-#######################
+###################################
+Документация CodeIgniter4
+###################################
 
 .. toctree::
 	:includehidden:
@@ -9,7 +9,7 @@ CodeIgniter4 User Guide
         intro/index
 
 ***************
-Getting Started
+Введение
 ***************
 
 .. toctree::
@@ -18,9 +18,9 @@ Getting Started
 
 	installation/index
 
-****************************
-Build Your First Application
-****************************
+****************************************************
+Разработка вашего первого приложения
+****************************************************
 
 .. toctree::
 	:includehidden:
@@ -29,7 +29,7 @@ Build Your First Application
     	tutorial/index
 
 *************************
-Overview & General Topics
+Обзор & Основные темы
 *************************
 
 .. toctree::
@@ -42,9 +42,9 @@ Overview & General Topics
 
 	general/index
 
-****************
-Request Handling
-****************
+*********************
+Обработка запросов
+*********************
 
 .. toctree::
 	:titlesonly:
@@ -56,9 +56,9 @@ Request Handling
 
 	outgoing/index
 
-******************
-Handling Databases
-******************
+***********************
+Работа с базами данных
+***********************
 
 .. toctree::
 	:titlesonly:
@@ -76,9 +76,9 @@ Handling Databases
 	dbmgmt/index
 
 
-*******************
-Libraries & Helpers
-*******************
+************************
+Библиотеки & Помощники
+************************
 
 .. toctree::
 	:titlesonly:
@@ -90,9 +90,9 @@ Libraries & Helpers
 
 	helpers/index
 
-***************
-Advanced Topics
-***************
+*******************
+Продвинутые темы
+*******************
 
 .. toctree::
 	:titlesonly:

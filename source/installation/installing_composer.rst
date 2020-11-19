@@ -1,31 +1,23 @@
-Composer Installation
+Установка с помощью Composer
 ###############################################################################
 
 .. contents::
     :local:
     :depth: 1
 
-Composer can be used in several ways to install CodeIgniter4 on your system.
+Composer можно использовать разными способами для установки CodeIgniter4.
 
-The first two techniques describe creating a skeleton project
-using CodeIgniter4, that you would then use as the base for a new webapp.
-The third technique described below lets you add CodeIgniter4 to an existing
-webapp,
+Первые два подхода описывают процесс создания каркаса проекта, используя CodeIgniter4, так, чтобы далее использовать его как основу для нового приложения.
+Третий, описаный ниже, подход позволяет добавить CodeIgniter4 к существующему приложению.
 
-**Note**: if you are using a Git repository to store your code, or for
-collaboration with others, then the ``vendor`` folder would normally
-be "git ignored". In such a case, you will need to do a ``composer update``
-when you clone the repository to a new system.
+**Note**: Если вы используете репозиторий Git для хранения вашего кода или для сотрудничества с другими разработчиками, тогда директория ``vendor``, обычно, будет проигнорирована Git`ом. В таком случае, вам необходимо будет выполнить команду ``composer update`` после того, как клонируете репозиторий.
 
-App Starter
+Приложение для быстрого старта
 ============================================================
 
-The `CodeIgniter 4 app starter <https://github.com/codeigniter4/appstarter>`_
-repository holds a skeleton application, with a composer dependency on
-the latest released version of the framework.
+Репозиторий `Приложение для быстрого старта CodeIgniter4 <https://github.com/codeigniter4/appstarter>`_ содержит каркас приложения вместе с зависимостями composer, основанный на последней выпущенной версии фреймворка.
 
-This installation technique would suit a developer who wishes to start
-a new CodeIgniter4 based project.
+Этот подход к установке удовлетворит разработчика, который хочет начать проект, основанный на CodeIgniter4.
 
 Installation & Set Up
 -------------------------------------------------------
